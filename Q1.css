@@ -1,0 +1,73 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  color: white;
+}
+
+header {
+  background-color: black;
+}
+
+main {
+  padding-top: 0%;
+}
+nav {
+  font-size: 25px;
+  background-color: white;
+  text-align: center;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  padding-inline-end: 3%;
+}
+
+video {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+h1 {
+  font-size: 350%;
+  text-align: center;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+h2 {
+  color: purple;
+  background-color: white;
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 25px;
+  padding-top: 2.5%;
+}
+
+p {
+  font-size: 20px;
+  padding-bottom: 1%;
+}
+
+.Blink {
+  animation: blinking 2s linear infinite;
+  color: red;
+  font-size: 25px;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+
+@keyframes blinking {
+  0% {
+    opacity: 10%;
+  }
+  50% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 10%;
+  }
+}
