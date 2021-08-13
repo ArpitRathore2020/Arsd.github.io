@@ -1,25 +1,9 @@
 * {
   margin: 0%;
   padding: 0%;
-  color: white;
-}
-
-header {
-  background-color: black;
-}
-
-main {
-  padding-top: 0%;
-}
-nav {
-  font-size: 25px;
-  background-color: white;
-  text-align: center;
-}
-nav a {
+  color: #fff;
+  font-family: sans-serif;
   text-decoration: none;
-  color: black;
-  padding-inline-end: 3%;
 }
 
 video {
@@ -28,46 +12,53 @@ video {
   min-height: 100%;
   z-index: -1;
 }
-
 h1 {
-  font-size: 350%;
   text-align: center;
-  padding-bottom: 1%;
-  padding-top: 1%;
+  z-index: 1;
 }
 
 h2 {
-  color: purple;
-  background-color: white;
-  font-size: 35px;
+  text-align: center;
+  z-index: 1;
 }
 
 h3 {
-  font-size: 25px;
-  padding-top: 2.5%;
+  font-size: 30px;
 }
 
-p {
-  font-size: 20px;
-  padding-bottom: 1%;
+h4 {
+  font-size: 12px;
 }
 
-.Blink {
-  animation: blinking 2s linear infinite;
-  color: red;
-  font-size: 25px;
-  padding-top: 0.5%;
-  padding-bottom: 0.5%;
+#border {
+  color: black;
+  background-color: #fff;
+  border-radius: 50px;
 }
 
-@keyframes blinking {
-  0% {
-    opacity: 10%;
-  }
-  50% {
-    opacity: 100%;
-  }
-  100% {
-    opacity: 10%;
-  }
+.center {
+  text-align: center;
+  padding: 20px;
+}
+
+button {
+  border-radius: 150px;
+  text-decoration: none;
+  padding: 8px 10px;
+}
+
+.pdf {
+  background-color: red;
+}
+
+.xlsv {
+  background-color: green;
+}
+
+.jpg {
+  background-color: blue;
+}
+
+a .sub {
+  padding-top: 30px;
 }
