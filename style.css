@@ -1,17 +1,42 @@
 * {
   margin: 0%;
   padding: 0%;
-  color: #fff;
+  color: white;
   font-family: sans-serif;
   text-decoration: none;
 }
+/* 
+body {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/1007/641/126/digital-art-pattern-vertical-portrait-display-wallpaper-preview.jpg);
+  background-position: center;
+} */
 
 video {
   position: fixed;
   min-width: 100%;
   min-height: 100%;
-  z-index: -1;
+  z-index: -100;
 }
+
+/* h3 {
+  background-image: url(color_bar.jpg);
+  background-size: 300%;
+  background-position: left;
+  animation: rgb 30s linear infinite;
+} */
+
+/* @keyframes rgb {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+} */
+
 h1 {
   text-align: center;
   z-index: 1;
@@ -23,17 +48,14 @@ h2 {
 }
 
 h3 {
+  margin-bottom: 15px;
   font-size: 30px;
+  border-radius: 10px;
+  color: white;
 }
 
 h4 {
   font-size: 12px;
-}
-
-#border {
-  color: black;
-  background-color: #fff;
-  border-radius: 50px;
 }
 
 .center {
@@ -49,6 +71,14 @@ button {
 
 .pdf {
   background-color: red;
+  color: white;
+  font-weight: bold;
+}
+
+.pdf:hover {
+  background-color: white;
+  color: red;
+  font-weight: bold;
 }
 
 .xlsv {
@@ -70,8 +100,8 @@ p {
 }
 
 img {
-  width: 50px;
+  width: 80px;
   padding-top: 15px;
-  padding-left: 45%;
-  padding-right: 55%;
+  padding-left: 40%;
+  padding-right: 60%;
 }
