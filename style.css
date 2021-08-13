@@ -132,8 +132,7 @@ p {
 #logo {
   width: 80px;
   padding-top: 15px;
-  padding-left: 40%;
-  padding-right: 60%;
+  padding-right: 16px;
 }
 
 .Books,
@@ -149,6 +148,9 @@ p {
   flex-wrap: wrap;
 }
 
-footer img {
-  margin: 0% 5%;
+footer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
 }
