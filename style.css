@@ -29,8 +29,8 @@ header {
   border-radius: 1.2em;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
   padding: 15px 0px;
   background: white;
   height: 50px;
@@ -44,7 +44,7 @@ header h1 {
 }
 
 #logo_top {
-  width: 65px;
+  width: 55px;
 }
 
 video {
@@ -152,10 +152,9 @@ button {
   color: white;
   font-weight: bold;
 }
-
 a .sub {
   /* padding-top: 30px; */
-  /* padding-bottom: 25px; */
+  /* padding-bottom: 25px;   */
 }
 
 .elements {
