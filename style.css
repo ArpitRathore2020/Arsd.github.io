@@ -37,9 +37,10 @@ header {
   justify-content: center;
   gap: 20px;
   padding: 15px 0px;
-  background: black;
+  /* background: black; */
   height: 50px;
   z-index: 100;
+  backdrop-filter: blur(1rem);
 }
 
 header h1 {
@@ -201,6 +202,7 @@ p {
   border: 2.7px solid white;
   width: 350px;
   border-radius: 1.2em;
+  backdrop-filter: blur(1.7rem);
 }
 
 .content {
