@@ -114,7 +114,6 @@ button {
   border-radius: 50px;
   text-decoration: none;
   padding: 5px 10px;
-  cursor: pointer;
 }
 
 .pdf {
@@ -216,12 +215,4 @@ footer {
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
-}
-
-.std_height {
-  max-height: 250px;
-}
-
-marquee:hover {
-  scroll-behavior: ;
 }
