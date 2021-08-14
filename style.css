@@ -5,15 +5,21 @@
   font-family: sans-serif;
   text-decoration: none;
 }
-/* 
-body {
-  background-image: url(https://c4.wallpaperflare.com/wallpaper/1007/641/126/digital-art-pattern-vertical-portrait-display-wallpaper-preview.jpg);
-  background-position: center;
-} */
+
+body h3,
+h4,
+p,
+button {
+  font-family: "Poppins", sans-serif;
+  /* background-image: url(https://c4.wallpaperflare.com/wallpaper/1007/641/126/digital-art-pattern-vertical-portrait-display-wallpaper-preview.jpg);
+  background-position: center; */
+}
 
 header {
+  position: sticky;
+  top: -13px;
   margin-top: -13px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   margin-left: 5px;
   margin-right: 5px;
   border-radius: 1.2em;
@@ -24,6 +30,7 @@ header {
   padding: 15px 0px;
   background: white;
   height: 50px;
+  z-index: 100;
 }
 
 header h1 {
@@ -77,6 +84,11 @@ h3 {
   font-size: 25px;
   border-radius: 10px;
   color: white;
+  position: sticky;
+  top: 68px;
+  background-color: #e056fd;
+  background-image: linear-gradient(to right, #e056fd 0%, blue, black);
+  overflow: hidden;
 }
 
 h4 {
@@ -90,7 +102,7 @@ h4 {
 }
 
 button {
-  border-radius: 150px;
+  border-radius: 50px;
   text-decoration: none;
   padding: 8px 10px;
 }
@@ -109,19 +121,40 @@ button {
 
 .xlsv {
   background-color: green;
+  color: white;
+  font-weight: bold;
+}
+
+.xlsv:hover {
+  background-color: white;
+  color: green;
+  font-weight: bold;
 }
 
 .jpg {
   background-color: blue;
+  color: white;
+  font-weight: bold;
+}
+
+.jpg:hover {
+  background-color: white;
+  color: blue;
+  font-weight: bold;
 }
 
 a .sub {
-  padding-top: 30px;
+  /* padding-top: 30px; */
+  /* padding-bottom: 25px; */
+}
+
+.elements {
+  padding-bottom: 25px;
 }
 
 p {
   padding-top: 15px;
-  font-size: 10px;
+  font-size: 12px;
   text-align: center;
 }
 
@@ -146,6 +179,7 @@ p {
 .content {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 footer {
