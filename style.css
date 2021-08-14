@@ -37,13 +37,13 @@ header {
   justify-content: center;
   gap: 20px;
   padding: 15px 0px;
-  background: white;
+  background: black;
   height: 50px;
   z-index: 100;
 }
 
 header h1 {
-  color: black;
+  color: white;
   font-family: "Dancing Script", cursive;
   font-size: 40px;
 }
@@ -210,6 +210,7 @@ p {
 }
 
 footer {
+  background: black;
   position: relative;
   bottom: 0;
   display: flex;
