@@ -21,6 +21,7 @@ button {
 
 body {
   min-height: 100vh;
+  background: black;
 }
 
 header {
@@ -164,6 +165,12 @@ button {
   font-weight: bold;
 }
 
+.classroom:hover {
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+}
+
 .elements {
   padding-bottom: 25px;
   /* width: auto; */
@@ -190,7 +197,7 @@ p {
 .timetable,
 .class_links {
   border: 2.7px solid white;
-  width: fit-content;
+  width: 350px;
   border-radius: 1.2em;
 }
 
