@@ -195,7 +195,8 @@ p {
 .Books,
 .syllabus,
 .timetable,
-.class_links {
+.class_links,
+.Alerts {
   border: 2.7px solid white;
   width: 350px;
   border-radius: 1.2em;
