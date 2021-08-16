@@ -204,6 +204,7 @@ p {
   border: 2.7px solid white;
   width: 350px;
   border-radius: 1.2em;
+  height: fit-content;
   backdrop-filter: blur(1.7rem);
 }
 
