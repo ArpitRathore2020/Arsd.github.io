@@ -95,7 +95,7 @@ h3 {
   border-radius: 10px;
   color: white;
   position: sticky;
-  top: 68px;
+  top: 67px;
   background-color: #e056fd;
   background-image: linear-gradient(to right, #e056fd 0%, blue, black);
   overflow: hidden;
@@ -132,7 +132,8 @@ button {
 .pdf_image,
 .jpg_image,
 .xlsv_image,
-.classroom_image {
+.classroom_image,
+.meet_image {
   height: 20px;
 }
 
@@ -160,7 +161,8 @@ button {
   font-weight: bold;
 }
 
-.classroom {
+.classroom,
+.meet {
   background-color: white;
   color: forestgreen;
   font-weight: bold;
