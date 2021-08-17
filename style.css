@@ -232,3 +232,7 @@ footer {
 .fixed_height {
   height: fit-content;
 }
+
+.whatsapp_logo {
+  width: 20px;
+}
