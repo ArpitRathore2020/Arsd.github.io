@@ -43,6 +43,10 @@ header {
   backdrop-filter: blur(1rem);
 }
 
+#update_link {
+  font-size: 20px;
+}
+
 header h1 {
   color: white;
   font-family: "Dancing Script", cursive;
