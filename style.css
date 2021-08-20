@@ -47,6 +47,10 @@ header {
   font-size: 20px;
 }
 
+.top3 {
+  display: flexbox;
+}
+
 header h1 {
   color: white;
   font-family: "Dancing Script", cursive;
