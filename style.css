@@ -6,6 +6,10 @@
   text-decoration: none;
 }
 
+.flexbox {
+  display: flexbox;
+}
+
 .course {
   font-size: 15px;
 }
@@ -41,6 +45,35 @@ header {
   height: 50px;
   z-index: 100;
   backdrop-filter: blur(1rem);
+}
+
+.overleaf_logo {
+  border-radius: 50px;
+  width: 100px;
+}
+
+.wxmaxima_logo {
+  width: 65px;
+}
+
+.css_logo {
+  width: 47px;
+}
+
+.github_logo {
+  width: 80px;
+}
+
+.jss_logo {
+  width: 55px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.rollapp_logo {
+  width: 105px;
+  padding-bottom: 15px;
+  padding-left: 10px;
 }
 
 #update_link {
